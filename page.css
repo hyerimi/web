@@ -1,0 +1,79 @@
+/* header부분 */
+.Top_menu_bar{
+  border-top:2px solid #d0d0d0;
+  border-bottom: 2px solid #d0d0d0;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px gray;
+}
+.menu_bar{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.menu_li{
+  text-decoration: none;
+  color: black;
+}
+.menu_bar :hover{
+  opacity: 0.6;
+}
+/*header끝 메뉴바*/
+
+/*section 시작 여기서부터 주문하기부분*/
+.order_columns{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px 100px 0px;
+}
+.order_col1{
+  border:1px solid #d0d0d0;
+  margin: 20px 100px 20px -200px;
+}
+.order_col2{
+  padding-left:100px;
+  border-left: 2px solid #d0d0d0;
+}
+.pd_name{
+  border:1px solid #d0d0d0;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
+  margin: 140px 0px 20px 0px;
+}
+.pd_price{
+  font-weight: bold;
+  margin:0px 0px 20px 5px;
+}
+.pd_color{
+  display: block;
+  border:1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 5px 26px 5px 26px;
+  margin: 70px 5px 55px 0px;
+  font-size: 16px;
+}
+.pd_size{
+  display: block;
+  border:1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+  margin: 40px 5px 5px 0px;
+  font-size: 16px;
+}
+.pd_icons{
+  margin: 100px -30px 10px 0px;
+}
+.pd_icon{
+  margin:10px 50px 0px 0px;
+}
+
+/*여기부터 상세이미지*/
+.detail_img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
+
+/*section끝*/

@@ -1,0 +1,148 @@
+/* header부분 */
+.HR_MALL{
+  font :2.5em "rockwell", serif, sans-serif;
+  margin: 30px 20px 20px 50px;
+}
+
+.Top_name {
+    text-decoration: none;
+    color: black;
+}
+.Top_name :hover {
+  color: gray;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_bar {
+	display: inline-block;
+	border: 2px solid #d0d0d0;
+  border-radius: 5px;
+	background: white;
+  margin: 63px 0px 0px 20px;
+}
+.input_text {
+	width: 150px; height: 20px;
+	margin: 6px 0 0 9px;
+	border: 0;
+	line-height: 21px;
+	font-size: 16px;
+	outline: none;
+}
+.sch_smit {
+	width: 30px; height: 30px;
+	margin: 64px 100px 0px -3px;
+  border: 2px solid #d0d0d0;
+	vertical-align: top;
+	background: #d0d0d0;
+	border-radius: 1px;
+	cursor: pointer;
+}
+/* 여기까지 header_top(로고, 검색창)부분 */
+
+.Top_menu_bar{
+  border-top:2px solid #d0d0d0;
+  border-bottom: 2px solid #d0d0d0;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px gray;
+}
+.menu_bar{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.menu_li{
+  text-decoration: none;
+  color: black;
+}
+.menu_bar :hover {
+  opacity: 0.6;
+}
+/* header끝 nav메뉴 포함 */
+
+/*section 시작*/
+.Main_img {
+  width: 500px;
+  height: auto;
+}
+
+.Main_img {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.center{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.N_A{
+  margin:200px 0px 100px 0px;
+  text-align: center;
+}
+.N_A_list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right:70px;
+}
+.image{
+  width:280px;
+  height:370px;
+  border:1px solid #d0d0d0;
+}
+.N_A_contents{
+  margin:60px 0px 50px 60px;
+}
+.detail{
+  text-align: center;
+  border:1px solid #d0d0d0;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin-left: 70px;
+  font-size: 14px;
+  padding: 2px;
+}
+.name{
+  padding-bottom:2px;
+}
+.price{
+  padding: 2px;
+}
+
+.Page_number{
+  margin: 70px 10px 100px 10px;
+  display: flex;
+  justify-content: center;
+}
+.p_number{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+.p_number:hover{
+  color: gray;
+}
+ /* section끝 (메인이미지, 신상품, 페이지숫자 포함) */
+
+/*footer 시작 */
+.footer{
+  border-top: 2px solid #d0d0d0;
+  padding: 50px 0px 50px 0px;
+}
+.Copyright{
+  font-size:0.9em;
+  text-align: center;
+  color: #636363;
+}
+/*footer끝 Copyright포함*/
